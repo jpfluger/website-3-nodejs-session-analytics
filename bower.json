@@ -1,0 +1,11 @@
+{
+  "name": "website101",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "bootstrap-dialog": "^1.35.4",
+    "lodash": "^4.17.4",
+    "moment": "^2.18.1",
+    "numeraljs": "^2.0.6"
+  }
+}

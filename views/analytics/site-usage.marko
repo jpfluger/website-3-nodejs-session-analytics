@@ -1,0 +1,23 @@
+<include('../templates/master.marko', {title: "Site Usage"})>
+	<@layoutMainContent>
+
+    <div class="container">
+
+      <div class="starter-template">
+        <h1>Website Usage</h1>
+        <p class="lead">Real-time reporting of website activity.</p>
+
+        <p>
+          Application Instance Name: ${data.globalStats.appName}
+        </p>
+
+        <pre class="text-left"><code>${data.globalStats.stringify()}</code></pre>
+
+        <button style="" id="button1" type="button">Click me!</button>
+
+      </div>
+
+    </div>
+
+	</@layoutMainContent>
+</include>
